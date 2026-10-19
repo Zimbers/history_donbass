@@ -46,7 +46,13 @@ init -1199 python:
 init:
     
     ##  Персонажи  ## 
-    
+    define alena = Character(u"Алена", color="#FFB6C1", what_color="#ffffff")
+    define egor = Character(u"Егор", color="#98FB98", what_color="#ffffff")
+    define dima = Character(u"Дмитрий", color="#778899", what_color="#ffffff")
+    define marina = Character(u"Марина", color="#FFD700", what_color="#ffffff")
+    define batushka = Character(u"Батюшка", color="#DCDCDC", what_color="#ffffff")
+    define prolog_nar = Character(None, what_color="#ffffff", what_font=ag_font_cour, what_size=44, what_outlines=[(2, "#000", 0, 0)])
+
     define tvzh = Character(u"Кореспондент", color="#FF7F50", what_color="#ffffff")
     define tvid = Character(u"Телеведущая", color="#FAEBD7", what_color="#ffffff")   
 
